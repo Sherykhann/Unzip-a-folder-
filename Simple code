@@ -1,0 +1,4 @@
+from zipfile import ZipFile
+zf = ZipFile('Path to the folder ', 'r')
+zf.extractall('Path to the folder')
+zf.close()
